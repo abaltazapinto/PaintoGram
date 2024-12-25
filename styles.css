@@ -1,0 +1,118 @@
+html, body {
+    margin: 15px 0px 15px 0px;
+    padding: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    background-color: #949090;
+    flex-direction: column;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/source-sans-pro.regular.ttf');
+  }
+
+header{
+    background-color: #FFFFFF;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo-img{
+    width: 127px;
+    padding: 20px 20px;
+}
+
+.avatar-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+p{
+    font-weight: 400;
+}
+
+.card-container{
+    background-color: #FFFFFF;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-bottom: 10px solid #949090;
+}
+
+.card-header{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 8px;
+}
+
+.location{
+    padding-left: 8px;
+    font-size: 13.5px;
+    margin: 0;
+    padding-left: 8px;
+}
+
+#avatar-vangogh{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-img{
+    width: 500px;
+    height: 500px;
+}
+
+.icons{
+    display: flex;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 0px;
+}
+
+.icon{
+    width: 30px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+}
+
+.likes{
+    margin: 0;
+    padding: 0px 20px 0px 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+span{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.comment{
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+}
+
+.icon:hover{
+    opacity: 0.5;
+}
