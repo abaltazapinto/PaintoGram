@@ -35,10 +35,14 @@ window.onload = function(){
     let structure = ``;
     for(let i=0; i<posts.length; i++){
         structure += 
+
         `
+        // Use <main> for the main ocntent section instead of <section> for improved accessibility 
+        
         <section class="card-container">
 
         <div class="card-header">
+        // try to have ll attributes descriptive and meaningfull and include aria roles or labels for interative elements like buttons to improve screen reader accessibiility
             <img src="${posts[i].avatar}" alt="avatar ${posts[i].name}" id="avatar-vangogh">
             <div class="name-location">
                 <p class="name">${posts[i].name}</p>
